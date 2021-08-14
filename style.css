@@ -1,0 +1,237 @@
+*{
+	margin: 0; padding: 0; box-sizing: border-box; 
+font-family: 'Josefin Sans';
+    color: #333;
+    font-size: 100%;
+    line-height: 1.5;
+    
+    /* Standard syntax (must be last) */
+
+}
+HTML{
+    scroll-behavior: smooth;
+}
+
+.search-btn{
+    color:#e84118;
+    float:left;
+    width:40px;
+    height:40px;
+    border-radius:20%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-fluid
+{   box-sizing: border-box;
+    padding:20px;
+     background:#fff;
+}
+/*blue gradient effect*/
+
+.nav a{
+    
+    color: #2196f3;
+    text-transform:uppercase;
+    letter-spacing: 4px;
+    font-size: 11px;
+    transition: 0.2s;
+    
+}
+
+a:hover{
+    color:#255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+
+/*fixed nav bar code*/
+
+.stickey
+{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+h1{
+  color: #1c2020;
+  margin-bottom: 1em;
+  font-size: 2.2rem;
+  font-weight: 100;
+    text-align: center;
+}
+
+.contact{
+      background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+        font-weight: 600;
+    }
+
+
+
+/*nav bar imp code*/
+
+/* Style the top navigation bar */
+.topnav {
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+</style>
+/* nav bar imp code end*/
+
+
+
+
+
+.stickey{
+  border-radius: 25px;
+  padding: 20px; 
+  width: 200px;
+  height: 150px; 
+    position: fixed;
+  top: 0;
+}
+
+h1{
+    text-shadow: 2px 2px 4px #FF0000;
+}
+h2{
+    text-shadow: 2px 2px 4px #FF0000;
+}
+}
+
+.column middle{
+    padding-left: 
+}
+
+
+/*all animation*/
+
+.animation{
+margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #031321;
+    font-family: consolas;
+    border-bottom:inherit;
+    border-bottom-left-radius: 400%;
+    border-bottom-right-radius: 400%;
+}
+.maruti ul{
+    display: flex;
+    border-bottom: 10px solid white;
+}
+.maruti ul li{
+    width: 50px; height: 50px;
+    color: darkred;
+    background-color: aqua;
+    list-style: none;
+    margin: 0 10px;
+    border-radius: 50%;
+    animation: bouncy 1s linear infinite;
+}
+@keyframes bouncy{
+    0%{transform: translateY(0);}
+    50%{transform: translateY(-150px);}
+    100%{transform: translateY(0);}
+}
+ul li1:nth-child(1){
+    animation-delay: 0.2s;
+    background-color: dimgray;
+}
+ul li:nth-child(2){
+    animation-delay: 0.6s;
+    background-color: #ff7675;
+}
+ul li:nth-child(3){
+    animation-delay: 0.4s;
+    background-color: #81ecec;
+}
+ul li:nth-child(4){
+    animation-delay: 0.8s;
+    background-color: #55efc4;
+}
+ul li:nth-child(5){
+    animation-delay: 0.5s;
+    background-color: #fd79a8;
+}
+
+.seprate{
+    
+    background-color:#C0C0C0;
+    margin: 0;
+    padding: 0;
+    display:contents;
+    min-height: 100vh;
+    font-family:cursive;
+    
+}
+
+.maruti{
+    width: 100px;
+    height: 100px;
+    animation: mymove 5s infinite;
+    color: aqua;
+        position: relative;
+}
+@keyframes mymove{
+    from{
+        left: 0px;
+    }
+    to{
+        left: 600px;
+    }
+}
+
+
